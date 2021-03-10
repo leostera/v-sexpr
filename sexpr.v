@@ -106,7 +106,7 @@ pub fn parse_expr(mut lexer Lexer) ?[]Sexpr {
 			Eof {
 				break
 			}
-			else {
+			Space {
 				lexer.next()
 				continue
 			}
